@@ -28,7 +28,7 @@ clean:
 	rm -rf $(OBJ_DIR)
 
 fclean: clean
-	rm -f $(NAME) Sully_*.c
+	rm -f $(NAME) Sully_*.c Sully_*
 
 re: fclean all
 
