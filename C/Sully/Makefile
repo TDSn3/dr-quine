@@ -6,7 +6,7 @@ OBJ_DIR		= object/
 
 CC			= gcc
 
-CFLAGS		= -Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror 
 
 NAME_FILE   = ./Sully.c
 
