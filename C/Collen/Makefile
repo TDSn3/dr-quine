@@ -8,7 +8,7 @@ CC			= gcc
 
 CFLAGS		= -Wall -Wextra -Werror
 
-NAME_FILE   = $(shell find $(SRC_DIR) -type f -name '*.c')
+NAME_FILE   = ./Colleen.c
 
 OBJ         = $(patsubst $(SRC_DIR)%.c, $(OBJ_DIR)%.o, $(NAME_FILE))
 DEPENDS     = $(patsubst $(SRC_DIR)%.c, $(OBJ_DIR)%.d, $(NAME_FILE))
